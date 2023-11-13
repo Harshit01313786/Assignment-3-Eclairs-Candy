@@ -1,0 +1,152 @@
+body {
+    font-family: 'YourCustomFont', Arial, sans-serif;
+    background: linear-gradient(to bottom, #332985, rgba(255, 217, 0, 0.968));
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(to bottom, #f5f5f5, rgba(255, 217, 0, 0.968)); /* Gradient background */
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #332985;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.candy-details {
+    margin-left: 20px;
+    background: linear-gradient(to top, #332985, rgba(255, 217, 0, 0.968));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gold;
+    
+    transition: transform 0.5s, box-shadow 0.3s, color 0.3s;
+
+}
+
+
+
+
+.candy-info {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto; 
+    padding: 20px;
+    background: linear-gradient(to top, #332985, rgba(255, 217, 0, 0.968));
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(255, 217, 0, 0.968);
+}
+.candy-info img {
+    max-width: 100%;
+    height: auto; 
+}
+
+
+.candy-details {
+    margin-left: 20px;
+}
+
+
+.candy-details ul li {
+    list-style: none;
+    padding: 10px;
+    background: url('candy-feature-icon.png') left center no-repeat; /* Multiple background images */
+}
+
+.candy-details ul li:hover {
+    transform: scale(1.1); 
+}
+
+footer {
+    background: linear-gradient(to bottom, #f5f5f5, rgba(255, 217, 0, 0.968)); /* Gradient background */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.company-info {
+    text-align: center;
+    color: #332985;
+}
+
+
+
+.contact-form {
+    background: linear-gradient(to top, #332985, rgba(255, 217, 0, 0.968));
+    padding: 70px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #332985;
+    transition: transform 0.2s;
+    margin: auto;
+
+}
+.footer-logo{
+    color: #332985;
+    margin: auto;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-form label {
+    margin: 10px 0;
+    font-weight: bold;
+    
+}
+
+.contact-form input, .contact-form textarea {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: #ff6600; 
+}
+
+.contact-form button {
+    background: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #ff9966;
+    transform: scale(1.05); 
+}
+
+.candy-info:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+}
+.candy-details:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+}
+.contact-form:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+  
